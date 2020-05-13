@@ -91,7 +91,7 @@ namespace QuantConnect.Data.Custom.Tiingo
             var source = Path.Combine(
                 Globals.DataFolder,
                 "alternative",
-                "tiingo",
+                "tiingo.new",
                 "content",
                 $"{date.ToStringInvariant(DateFormat.EightCharacter)}.zip#{index}"
             );
@@ -128,7 +128,7 @@ namespace QuantConnect.Data.Custom.Tiingo
             var source = Path.Combine(
                 Globals.DataFolder,
                 "alternative",
-                "tiingo",
+                "tiingo.new",
                 $"{config.MappedSymbol.ToLowerInvariant()}",
                 $"{date.ToStringInvariant(DateFormat.EightCharacter)}.csv"
             );
